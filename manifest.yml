@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: creaTAI_Android
+  host: creaTAI
+  disk_quota: 1024M
+  services:
+  - creaTAI-AdvancedMobileAccess
+  - creaTAI-imfpush
+  - creaTAI-cloudantNoSQLDB
+  - availability-monitoring-auto
